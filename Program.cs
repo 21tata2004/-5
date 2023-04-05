@@ -12,9 +12,8 @@ namespace пр5
         {
             string s = Console.ReadLine();
             double x = double.Parse(s);
-            double F = Math.Sin(x) - 2 * Math.Cos(x);
-            Console.WriteLine(x + " " + F);
-
+            double F = Math.Sin(x) - 2 * Math.Cos(x);//формула
+            Console.WriteLine(x + " " + F);//вывод ответа
             Console.ReadKey();
             return;
         }
